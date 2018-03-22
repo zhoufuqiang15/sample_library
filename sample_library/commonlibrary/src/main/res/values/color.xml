@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f83244</color>  <!-- 主色调，用于强调突出的文字、按钮等 -->
+    <color name="colorPrimaryDark">#e22d3e</color> <!-- 主色调点击色 -->
+    <color name="colorPrimaryLight">#feeaec</color> <!-- 主色调点击色 -->
+</resources>
