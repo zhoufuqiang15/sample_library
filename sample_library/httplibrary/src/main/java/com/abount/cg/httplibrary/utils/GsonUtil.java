@@ -45,7 +45,7 @@ public class GsonUtil {
      * @param dateFormatterStr json中时间值对应的格式,比如("yyyy-MM-dd HH:mm:ss")
      * @return
      */
-    public static GsonConverterFactory buildHljCommonGsonConverter(String dateFormatterStr) {
+    public static GsonConverterFactory buildCommonGsonConverter(String dateFormatterStr) {
         GsonBuilder gsonBuilder = initGsonBuilder();
         gsonBuilder.setDateFormat(dateFormatterStr);
         Gson myGson = gsonBuilder.create();
@@ -63,7 +63,7 @@ public class GsonUtil {
      */
     public static Gson getGsonInstance() {
         if (gsonInstance == null) {
-            gsonInstance = GsonUtil.buildHljCommonGson();
+            gsonInstance = GsonUtil.buildCommonGson();
         }
         return gsonInstance;
     }
@@ -73,7 +73,7 @@ public class GsonUtil {
      *
      * @return
      */
-    private static Gson buildHljCommonGson() {
+    private static Gson buildCommonGson() {
         GsonBuilder gsonBuilder = initGsonBuilder();
 
         gsonBuilder.setDateFormat(AcgHttp.TimeFormatPattern.PATTERN_1);

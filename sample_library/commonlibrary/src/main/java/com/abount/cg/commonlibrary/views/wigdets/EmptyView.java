@@ -48,7 +48,7 @@ public class EmptyView extends FrameLayout {
 
     private void init(Context context) {
         this.mContext = context;
-        inflate(context, R.layout.hlj_empty_view___cm, this);
+        inflate(context, R.layout.empty_view___cm, this);
         emptyViewHintView = findViewById(R.id.empty_hint_layout);
         imgEmptyHint = (ImageView) findViewById(R.id.img_empty_hint);
         imgNetHint = (ImageView) findViewById(R.id.img_net_hint);

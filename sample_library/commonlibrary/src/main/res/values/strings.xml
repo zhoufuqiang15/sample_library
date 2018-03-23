@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">acgcommonlibrary</string>
+    <string name="navigation_drawer_open">open drawer</string>
+    <string name="navigation_drawer_close">close drawer</string>
     <string name="label_click_to_reload___cm">点击屏幕加载试试吧</string>
     <string name="label_network_disconnected___cm">网络连接失败，请检查网络</string>
     <string name="label_empty___cm">这里空空的，什么都没有</string>

@@ -44,13 +44,13 @@ public class RetrofitBuilder {
 
         // 默认添加婚礼纪服务器返回数据中需要特殊处理的gson反序列化的converter
         // 这里设置的时间解析格式将会一直使用,直到添加新的格式的时间解析器将覆盖这一个
-        converterFactories.add(GsonUtil.buildHljCommonGsonConverter(AcgHttp.TimeFormatPattern
+        converterFactories.add(GsonUtil.buildCommonGsonConverter(AcgHttp.TimeFormatPattern
                 .PATTERN_1));
     }
 
-    public RetrofitBuilder(Context context, HttpHeaderBase hljHttpHeaderBase) {
+    public RetrofitBuilder(Context context, HttpHeaderBase HttpHeaderBase) {
         initBuilder(context);
-        this.headerBase = hljHttpHeaderBase;
+        this.headerBase = HttpHeaderBase;
     }
 
     /**

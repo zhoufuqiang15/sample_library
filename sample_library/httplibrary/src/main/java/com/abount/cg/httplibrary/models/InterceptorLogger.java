@@ -40,18 +40,21 @@ public class InterceptorLogger implements HttpLoggingInterceptor.Logger {
     }
 
     private void saveLogToRealm(String string) {
-        long timeWindowStart = System.currentTimeMillis() - LIMIT_TIME_WINDOW;
-        HttpLogBlock block = new HttpLogBlock(string);
+        final long timeWindowStart = System.currentTimeMillis() - LIMIT_TIME_WINDOW;
+        final HttpLogBlock block = new HttpLogBlock(string);
         Realm realm = Realm.getDefaultInstance();
-        realm.beginTransaction();
-        // 设置时间窗口，控制数量
-        realm.where(HttpLogBlock.class)
-                .lessThan("id", timeWindowStart)
-                .findAll()
-                .deleteAllFromRealm();
-        // 插入新数据
-        realm.copyToRealm(block);
-        realm.commitTransaction();
-        realm.close();
+        realm.executeTransactionAsync(new Realm.Transaction() {
+            @Override
+            public void execute(Realm realm) {
+                // 设置时间窗口，控制数量
+                realm.where(HttpLogBlock.class)
+                        .lessThan("id", timeWindowStart)
+                        .findAll()
+                        .deleteAllFromRealm();
+                // 插入新数据
+                realm.copyToRealm(block);
+                realm.close();
+            }
+        });
     }
 }

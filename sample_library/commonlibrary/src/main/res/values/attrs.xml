@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CheckableLayout">
+        <attr name="checked" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_breakLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AppColor">
+        <attr name="ColorBackground" format="color" />
+
+        <attr name="ColorPrimary" format="color" />
+        <attr name="ColorPrimaryDark" format="color" />
+        <attr name="ColorAccent" format="color" />
+
+        <attr name="ColorBarTitle" format="color" />
+        <attr name="ColorBarBackground" format="color" />
+        <attr name="TransparentBarIconColor" format="color" />
+
+        <attr name="ColorSegmentTitle" format="color" />
+        <attr name="ColorSegmentBackground" format="color" />
+        <attr name="ColorSegmentInnerBackground" format="color" />
+
+        <attr name="ColorLine" format="color" />
+        <attr name="ColorLine2" format="color" />
+        <attr name="ColorGrayLine" format="color" />
+
+        <attr name="ColorTitle1" format="color" />
+        <attr name="ColorContent1" format="color" />
+        <attr name="ColorContent2" format="color" />
+        <attr name="ColorContent3" format="color" />
+        <attr name="ColorContentExt1" format="color" />
+        <attr name="ColorContentExt2" format="color" />
+        <attr name="ColorContentExt3" format="color" />
+        <attr name="ColorLink" format="color" />
+
+        <attr name="ColorBottomButton" format="color" />
+
+        <attr name="CouponColor" format="color" />
+        <attr name="TabTextColor" format="color" />
+        <attr name="TimeDownBackgroundColor" format="color" />
+        <attr name="MerchantCallColor" format="color" />
+        <attr name="MerchantCollectColor" format="color" />
+        <attr name="CommentEmptyColor" format="color" />
+        <attr name="MerchantFeedDayColor" format="color" />
+        <attr name="MerchantFeedMonthColor" format="color" />
+        <attr name="FeedPraiseColorList" format="color" />
+        <attr name="CommentPraiseColorList" format="color" />
+        <attr name="SortCheckColorList" format="color" />
+        <attr name="CheckIconColorList" format="color" />
+        <attr name="CommentHeaderSortCheckedColorList" format="color" />
+        <attr name="CommentNameColor" format="color" />
+
+        <attr name="RatingBackgroundColor" format="color" />
+        <attr name="MerchantRatingProgressColor" format="color" />
+        <attr name="CommentRatingProgressColor" format="color" />
+        <attr name="CommentHeaderRatingColor" format="color" />
+
+        <attr name="IconMerchantCouponLeft" format="reference" />
+        <attr name="IconMerchantCouponRight" format="reference" />
+        <attr name="IconMerchantCoupon" format="reference" />
+        <attr name="IconMerchantCouponTag" format="reference" />
+        <attr name="IconMerchantCollected" format="reference" />
+        <attr name="IconMerchantNotCollected" format="reference" />
+
+        <attr name="BgMerchantCommentEmpty" format="reference" />
+        <attr name="BgEventDisable" format="reference" />
+        <attr name="BgEventTimeDown" format="reference" />
+        <attr name="BgCommentHeaderSortChecked" format="reference" />
+
+        <attr name="DrawableR13HalfStrokeLine2" format="reference" />
+        <attr name="DrawableTrans2Primary" format="reference" />
+        <attr name="DrawablePrimary2Dark" format="reference" />
+        <attr name="DrawableR2StrokePrimary" format="reference" />
+        <attr name="DrawableR2StrokeAccent" format="reference" />
+        <attr name="DrawableCoupon2Dark" format="reference" />
+
+        <attr name="BgChatBubble" format="reference" />
+        <attr name="IconChatBubbleArrowRight" format="reference" />
+        <attr name="IconChatBubbleArrowDown" format="reference" />
+
+
+        <attr name="MarkBackground" format="reference" />
+        <attr name="BadMarkBackground" format="reference" />
+        <attr name="MarkTextColor" format="reference" />
+        <attr name="DadMarkTextColor" format="reference" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="TintColorListImageView">
+        <attr name="tintColorList" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RecordAmplitudeView">
+        <attr name="bar_color" format="color" />
+        <attr name="bar_width" format="dimension" />
+        <attr name="bar_space" format="dimension" />
+        <attr name="bar_num" format="integer" />
+        <attr name="left" format="boolean" />
+        <attr name="start" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="NoteCirclePageIndicator">
+        <attr name="normal_color" format="color" />
+        <attr name="select_color" format="color" />
+        <attr name="lager_radius" format="dimension" />
+        <attr name="middle_radius" format="dimension" />
+        <attr name="small_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="UploadProgressBar">
+        <attr name="bg_color" format="color" />
+        <attr name="progress_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearableEditText">
+        <attr name="deleteIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FoldingMenu">
+        <attr name="foldNumber" format="integer" />
+    </declare-styleable>
+
+</resources>

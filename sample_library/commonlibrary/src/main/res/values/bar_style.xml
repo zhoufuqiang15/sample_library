@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!--婚礼纪所有APP的最基本的样式定义-->
+<resources>
+
+
+    <attr name="TitleStyle" format="reference" />
+    <attr name="SubTitleStyle" format="reference" />
+    <attr name="ActionButtonItemStyle" format="reference" />
+    <attr name="ActionImageItemStyle" format="reference" />
+
+    <attr name="MiuiDarkStatusBar" format="boolean" />
+    <attr name="ActionBarColor" format="color" />
+    <attr name="StatusBarColor" format="color" />
+    <attr name="HomeIndicatorColor" format="color" />
+    <attr name="ActionBarDividerColor" format="color" />
+    <attr name="ActionBarHeight" format="dimension" />
+
+
+    <style name="TitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="TitleStyle.Light" parent="TitleStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="TitleStyle.Dark" parent="TitleStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TitleStyleExpended.Dark" parent="SubTitleStyle.Dark">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="SubTitleStyle">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">@dimen/medium_text_size3</item>
+    </style>
+
+    <style name="SubTitleStyle.Light" parent="SubTitleStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="SubTitleStyle.Dark" parent="SubTitleStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!--ActionBar上的图标样式-->
+    <style name="ActionImageItem">
+        <item name="android:minWidth">45dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@drawable/sl_clickable_background</item>
+    </style>
+
+
+    <style name="ActionImageItem.Light" parent="ActionImageItem">
+        <item name="android:tint">@color/colorPrimary</item>
+    </style>
+
+    <style name="ActionImageItem.Dark" parent="ActionImageItem">
+        <item name="android:tint">@color/colorWhite</item>
+    </style>
+
+
+    <!--ActionBar上的按钮样式-->
+    <style name="ActionButtonItem">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/medium_text_size1</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:background">@drawable/sl_clickable_background</item>
+    </style>
+
+
+    <style name="ActionButtonItem.Light" parent="ActionButtonItem">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ActionButtonItem.Dark" parent="ActionButtonItem">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>

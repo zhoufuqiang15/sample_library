@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?><!--婚礼纪所有APP的最基本的样式定义-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBarTheme" parent="Theme.AppCompat.Light">
+        <!--actionBar样式配置-->
+
+        <item name="android:actionBarSize">45dp</item>
+        <item name="actionBarSize">45dp</item>
+        <item name="TitleStyle">@style/TitleStyle.Light</item>
+        <item name="SubTitleStyle">@style/SubTitleStyle.Light</item>
+        <item name="ActionButtonItemStyle">@style/ActionButtonItem.Light</item>
+        <item name="ActionImageItemStyle">@style/ActionImageItem.Light</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="MiuiDarkStatusBar">true</item>
+
+
+        <item name="ActionBarColor">@color/colorWhite</item>
+        <item name="StatusBarColor">@color/colorWhite</item>
+        <item name="ActionBarDividerColor">@color/colorLine</item>
+        <item name="ActionBarHeight">45dp</item>
+
+        <!--==================================-->
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBarTheme">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorHint">@color/colorGray2</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@null</item>
+
+        <item name="android:buttonStyle">@style/borderlessButtonStyle</item>
+
+        <!--颜色默认样式配置-->
+        <item name="ColorBackground">@color/colorBackground</item>
+
+        <item name="ColorPrimary">@color/colorPrimary</item>
+        <item name="ColorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="ColorAccent">@color/colorAccent</item>
+
+        <item name="ColorBarTitle">@color/colorBlack</item>
+        <item name="ColorBarBackground">@color/colorWhite</item>
+        <item name="TransparentBarIconColor">@color/colorWhite</item>
+
+        <item name="ColorSegmentTitle">@color/colorBlack</item>
+        <item name="ColorSegmentBackground">@color/colorWhite</item>
+        <item name="ColorSegmentInnerBackground">@color/colorBackground2</item>
+
+        <item name="ColorLine">@color/colorLine</item>
+        <item name="ColorLine2">@color/colorLine2</item>
+        <item name="ColorGrayLine">@color/colorGray3</item>
+
+        <item name="ColorTitle1">@color/colorBlack2</item>
+        <item name="ColorContent1">@color/colorBlack2</item>
+        <item name="ColorContent2">@color/colorBlack3</item>
+        <item name="ColorContent3">@color/colorGray</item>
+        <item name="ColorContentExt1">@color/colorBlack3</item>
+        <item name="ColorContentExt2">@color/colorGray</item>
+        <item name="ColorContentExt3">@color/colorGray2</item>
+        <item name="ColorLink">@color/colorLink</item>
+
+        <item name="ColorBottomButton">@color/colorWhite</item>
+
+        <item name="TabTextColor">@color/black2_primary</item>
+        <item name="TimeDownBackgroundColor">@color/colorBlack3</item>
+        <item name="MerchantCallColor">@color/colorBlack3</item>
+        <item name="MerchantCollectColor">@color/colorBlack2</item>
+        <item name="CommentEmptyColor">?ColorPrimary</item>
+        <item name="MerchantFeedDayColor">@color/colorBlack2</item>
+        <item name="MerchantFeedMonthColor">@color/colorGray</item>
+        <item name="FeedPraiseColorList">@color/gray1_primary</item>
+        <item name="CommentPraiseColorList">@color/black3_primary</item>
+        <item name="SortCheckColorList">@color/black3_primary</item>
+        <item name="CheckIconColorList">@color/gray1_primary_checked_icon_color</item>
+        <item name="CommentHeaderSortCheckedColorList">@color/black2_white</item>
+        <item name="CommentNameColor">@color/colorBlack2</item>
+
+    </style>
+
+    <style name="FullScreenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHint">@color/colorGray2</item>
+
+
+        <!--actionBar样式配置-->
+
+        <item name="TitleStyle">@style/TitleStyle.Light</item>
+        <item name="SubTitleStyle">@style/SubTitleStyle.Light</item>
+        <item name="ActionButtonItemStyle">@style/ActionButtonItem.Light</item>
+        <item name="ActionImageItemStyle">@style/ActionImageItem.Light</item>
+
+
+        <item name="ActionBarColor">@color/colorWhite</item>
+        <item name="StatusBarColor">@color/colorWhite</item>
+        <item name="ActionBarDividerColor">@color/colorLine</item>
+        <item name="ActionBarHeight">45dp</item>
+
+        <!--==================================-->
+
+        <!--颜色默认样式配置-->
+        <item name="ColorBackground">@color/colorBackground</item>
+
+        <item name="ColorPrimary">@color/colorPrimary</item>
+        <item name="ColorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="ColorAccent">@color/colorAccent</item>
+
+        <item name="ColorBarTitle">@color/colorBlack</item>
+        <item name="ColorBarBackground">@color/colorWhite</item>
+        <item name="TransparentBarIconColor">@color/colorWhite</item>
+
+        <item name="ColorSegmentTitle">@color/colorBlack</item>
+        <item name="ColorSegmentBackground">@color/colorWhite</item>
+        <item name="ColorSegmentInnerBackground">@color/colorBackground2</item>
+
+        <item name="ColorLine">@color/colorLine</item>
+        <item name="ColorLine2">@color/colorLine2</item>
+        <item name="ColorGrayLine">@color/colorGray3</item>
+
+        <item name="ColorTitle1">@color/colorBlack2</item>
+        <item name="ColorContent1">@color/colorBlack2</item>
+        <item name="ColorContent2">@color/colorBlack3</item>
+        <item name="ColorContent3">@color/colorGray</item>
+        <item name="ColorContentExt1">@color/colorBlack3</item>
+        <item name="ColorContentExt2">@color/colorGray</item>
+        <item name="ColorContentExt3">@color/colorGray2</item>
+        <item name="ColorLink">@color/colorLink</item>
+
+        <item name="ColorBottomButton">@color/colorWhite</item>
+
+        <item name="CouponColor">@color/colorPrimary</item>
+        <item name="TabTextColor">@color/black2_primary</item>
+        <item name="TimeDownBackgroundColor">@color/colorBlack3</item>
+        <item name="MerchantCallColor">@color/colorBlack3</item>
+        <item name="MerchantCollectColor">@color/colorBlack2</item>
+        <item name="CommentEmptyColor">?ColorPrimary</item>
+        <item name="MerchantFeedDayColor">@color/colorBlack2</item>
+        <item name="MerchantFeedMonthColor">@color/colorGray</item>
+        <item name="FeedPraiseColorList">@color/gray1_primary</item>
+        <item name="CommentPraiseColorList">@color/black3_primary</item>
+        <item name="SortCheckColorList">@color/black3_primary</item>
+        <item name="CheckIconColorList">@color/gray1_primary_checked_icon_color</item>
+        <item name="CommentHeaderSortCheckedColorList">@color/black2_white</item>
+        <item name="CommentNameColor">@color/colorBlack2</item>
+
+        <item name="MarkTextColor">@color/black2_white</item>
+        <item name="DadMarkTextColor">@color/black2_white</item>
+        <!--==================================-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppPullToRefreshStyle" />
+
+    <style name="TitleBarBackground">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="CustomTitleTheme" parent="AppTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBarBackground</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CustomTitleTheme.Dark" parent="CustomTitleTheme">
+        <!--actionBar样式配置-->
+
+        <item name="TitleStyle">@style/TitleStyle.Dark</item>
+        <item name="SubTitleStyle">@style/SubTitleStyle.Dark</item>
+        <item name="ActionButtonItemStyle">@style/ActionButtonItem.Dark</item>
+        <item name="ActionImageItemStyle">@style/ActionImageItem.Dark</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="MiuiDarkStatusBar">false</item>
+
+        <item name="HomeIndicatorColor">@color/colorWhite</item>
+        <item name="ActionBarColor">@color/colorPrimary</item>
+        <item name="StatusBarColor">@color/colorPrimary</item>
+        <item name="ActionBarDividerColor">@android:color/transparent</item>
+
+        <!--==================================-->
+    </style>
+
+    <style name="NoTitleBarTheme" parent="AppTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="NoTitleBarThemeBackgroundTranslucent" parent="NoTitleBarTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="NoTitleBarThemeNotTranslucent" parent="NoTitleBarTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="BubbleDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="BubbleDialogFragment" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="dialog_anim_rise_style" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_in_up</item>
+        <item name="@android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="dialog_anim_top_style" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_top_in</item>
+        <item name="@android:windowExitAnimation">@anim/slide_top_out</item>
+    </style>
+
+    <style name="borderlessButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--通用横线-->
+    <style name="line_horizontal">
+        <item name="android:background">@color/colorLine</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <!--通用竖线-->
+    <style name="line_vertical">
+        <item name="android:background">@color/colorLine</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>
